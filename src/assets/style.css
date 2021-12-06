@@ -1,0 +1,55 @@
+body {
+  background-image: url("./img/music.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  color: white;
+}
+.song-list {
+  text-align: center;
+  font-family: monospace;
+  font-size: 35px;
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons button {
+  font-size: 35px;
+  margin: 30px;
+  width: 150px;
+  font-family: monospace;
+  background: none;
+  border-radius: 5px;
+  color: white;
+}
+.buttons .play {
+  background: none;
+  width: 130px;
+  height: 65px;
+}
+main {
+  margin-top: 1%;
+}
+.circleimage {
+  width: 450px;
+  height: 450px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 25px;
+  /* background-image: url("./img/piano-image.jpg"); */
+}
