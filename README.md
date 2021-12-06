@@ -7,7 +7,7 @@ npm install
 ```
 
 ### Finds file
-
+cd music-app
 ```
 cd musicapp
 ```
